@@ -3,7 +3,7 @@ import sys
 import tensorflow as tf
 import matplotlib.mlab as mlab
 import pyaudio
-from queue import Queue
+from multiprocessing import Queue
 import time
 
 # To generate wav file from np array.
