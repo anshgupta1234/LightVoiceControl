@@ -1,18 +1,9 @@
 import numpy as np
-import time
-from pydub import AudioSegment
-import random
 import sys
-import io
-import os
-import glob
-from td_utils import *
 import tensorflow as tf
 import matplotlib.mlab as mlab
-import matplotlib.pyplot as plt
 import pyaudio
 from queue import Queue
-from threading import Thread
 import time
 
 # To generate wav file from np array.
